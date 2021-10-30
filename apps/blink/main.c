@@ -20,9 +20,9 @@
  *
  *******************************************************************************************************/
 
-#include "tl_common.h"
+// #include "tl_common.h"
 #include "drivers.h"
-#include "vendor/common/user_config.h"
+// #include "vendor/common/user_config.h"
 #include "app_config.h"
 
 #include "drivers/8258/gpio_8258.h"
@@ -83,9 +83,9 @@ void my_key_proocess()
 void main_loop ()
 {
 	gpio_write(GPIO_PD2, 1);
-	sleep_ms(1000);
+	sleep_ms(100);
 	gpio_write(GPIO_PD2, 0);
-	sleep_ms(1000);
+	sleep_ms(100);
 	// gpio_write(GPIO_PC3, 0); 
 	// gpio_write(GPIO_PC4, 0); 
 	// gpio_write(GPIO_PB4, 0); 
