@@ -26,9 +26,14 @@ DOWNLOAD_PORT := /dev/ttyUSB0
 # include SDK makefile
 -include $(TEL_PATH)/components/boot/8258/boot.mk
 -include $(TEL_PATH)/components/drivers/8258/drivers_8258.mk
+-include $(TEL_PATH)/components/common/common.mk
+-include $(TEL_PATH)/components/vendor/common/vendor_common.mk
 
-# Add inputs and outputs from these tool invocations to the build variables
-OBJS += $(OUT_PATH)/main.o
+# Add inputs and outputs from these tool invocations to the build variables 
+OBJS += \
+$(OUT_PATH)/app.o \
+$(OUT_PATH)/main.o
+
 
 # Each subdirectory must supply rules for building sources it contributes
 $(OUT_PATH)/%.o: $(PROJECT_PATH)/%.c

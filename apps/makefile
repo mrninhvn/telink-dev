@@ -1,15 +1,24 @@
 ##########################################################################################
 # Set SDK Path , if you copy this project other dir, please set TEL_PATH absolute path
 #########################################################################################
-TEL_PATH := ../..
-TOOLCHAIN_PATH := ../../../tc32/bin
+TEL_PATH := ..
+TOOLCHAIN_PATH := ../../tc32/bin
 export PATH := $(TOOLCHAIN_PATH):$(PATH)
 
 #########################################################################################
-# The following content need not be modified by the user!!!!!							#
+# The following content need not be modified by the user!!!!!
 #########################################################################################
-PROJECT_PATH := .
+
+ifndef APP
+$(error "Please add "APP=" variable. Eg: "make APP=blink")
+endif
+
+PROJECT_PATH := ./$(APP)
 OUT_PATH :=$(PROJECT_PATH)/build
+
+ifeq ("$(wildcard $(PROJECT_PATH))", "")
+$(error "Invalid APP, please check if the "APP=" is correct!")
+endif
 
 #include the SDK makefile
 OBJ_SRCS := 
@@ -71,10 +80,6 @@ endif
 
 #include Project makefile
 -include $(PROJECT_PATH)/project.mk
-
-ifneq ($(TEL_PATH)/apps/$(PROJECT_NAME)/makefile, $(wildcard $(TEL_PATH)/apps/$(PROJECT_NAME)/makefile))
-$(error "Please check if the PROJECT_PATH is correct！！！")
-endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LST_FILE := $(OUT_PATH)/$(PROJECT_NAME).lst
