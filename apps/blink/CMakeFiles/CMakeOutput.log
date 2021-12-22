@@ -1,0 +1,137 @@
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc 
+Build flags: -ffunction-sections;-fdata-sections;-Wall;-O2;-fpack-struct;-fshort-enums;-finline-small-functions;-std=gnu99;-fshort-wchar;-fms-extensions;-DCHIP_TYPE=CHIP_TYPE_8258;-DMCU_STARTUP_8258_RET_16K;
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_22ca1/fast && /usr/bin/make  -f CMakeFiles/cmTC_22ca1.dir/build.make CMakeFiles/cmTC_22ca1.dir/build
+make[1]: Entering directory '/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o
+/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc   -ffunction-sections -fdata-sections -Wall -O2 -fpack-struct -fshort-enums -finline-small-functions -std=gnu99 -fshort-wchar -fms-extensions -DCHIP_TYPE=CHIP_TYPE_8258 -DMCU_STARTUP_8258_RET_16K     -v -o CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o -c /home/ninh/.local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc
+COLLECT_LTO_WRAPPER=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/lto-wrapper
+Target: tc32-elf
+Configured with: ../../gcc-4.5.1/configure --program-prefix=tc32-elf- --target=tc32-elf --prefix=/opt/tc32 --enable-languages=c --libexecdir=/opt/tc32/lib --with-gnu-as --with-gnu-ld --without-headers --disable-decimal-float --disable-nls --disable-mathvec --with-pkgversion='Telink TC32 version 2.0 build' --without-docdir --without-fp --without-tls --disable-shared --disable-threads --disable-libffi --disable-libquadmath --disable-libstdcxx-pch --disable-libmudflap --disable-libgomp --disable-libssp -v --without-docdir --enable-soft-float --with-newlib --with-gcc --with-gnu- --with-gmp=/opt/tc32/addontools --with-mpc=/opt/tc32/addontools --with-mpfr=/opt/tc32/addontools
+Thread model: single
+gcc version 4.5.1.tc32-elf-1.5 (Telink TC32 version 2.0 build) 
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c'
+ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/cc1 -quiet -v -iprefix /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/ -D__USES_INITFINI__ -DCHIP_TYPE=CHIP_TYPE_8258 -DMCU_STARTUP_8258_RET_16K /home/ninh/.local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o -O2 -Wall -std=gnu99 -version -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -finline-small-functions -fshort-wchar -fms-extensions -o /tmp/ccyTAfX2.s
+GNU C (Telink TC32 version 2.0 build) version 4.5.1.tc32-elf-1.5 (tc32-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 5.1.2, MPFR version 3.1.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/sys-include"
+ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include"
+ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed"
+ignoring nonexistent directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/sys-include"
+ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include
+ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed
+ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include
+End of search list.
+GNU C (Telink TC32 version 2.0 build) version 4.5.1.tc32-elf-1.5 (tc32-elf)
+	compiled by GNU C version 5.4.0 20160609, GMP version 5.1.2, MPFR version 3.1.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 588dadc2e3ee96ee5eff501005748fd6
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c'
+ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/bin/as -v -o CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o /tmp/ccyTAfX2.s
+GNU assembler version 2.20 (tc32-elf) using BFD version (Telink TC32 version 2.01build) 2.20.tc32-elf-1.5
+COMPILER_PATH=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/bin/
+LIBRARY_PATH=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c'
+Linking C static library libcmTC_22ca1.a
+/home/ninh/.local/lib/python3.7/site-packages/cmake/data/bin/cmake -P CMakeFiles/cmTC_22ca1.dir/cmake_clean_target.cmake
+/home/ninh/.local/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ca1.dir/link.txt --verbose=1
+/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-ar qc libcmTC_22ca1.a CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o
+/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-ranlib libcmTC_22ca1.a
+make[1]: Leaving directory '/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include]
+    add: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed]
+    add: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include]
+  end of search list found
+  collapse include dir [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include] ==> [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include]
+  collapse include dir [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed] ==> [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed]
+  collapse include dir [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include] ==> [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/tc32-elf/include]
+  implicit include dirs: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include;/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed;/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/tc32-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(tc32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_22ca1/fast && /usr/bin/make  -f CMakeFiles/cmTC_22ca1.dir/build.make CMakeFiles/cmTC_22ca1.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc   -ffunction-sections -fdata-sections -Wall -O2 -fpack-struct -fshort-enums -finline-small-functions -std=gnu99 -fshort-wchar -fms-extensions -DCHIP_TYPE=CHIP_TYPE_8258 -DMCU_STARTUP_8258_RET_16K     -v -o CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o -c /home/ninh/.local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/lto-wrapper]
+  ignore line: [Target: tc32-elf]
+  ignore line: [Configured with: ../../gcc-4.5.1/configure --program-prefix=tc32-elf- --target=tc32-elf --prefix=/opt/tc32 --enable-languages=c --libexecdir=/opt/tc32/lib --with-gnu-as --with-gnu-ld --without-headers --disable-decimal-float --disable-nls --disable-mathvec --with-pkgversion='Telink TC32 version 2.0 build' --without-docdir --without-fp --without-tls --disable-shared --disable-threads --disable-libffi --disable-libquadmath --disable-libstdcxx-pch --disable-libmudflap --disable-libgomp --disable-libssp -v --without-docdir --enable-soft-float --with-newlib --with-gcc --with-gnu- --with-gmp=/opt/tc32/addontools --with-mpc=/opt/tc32/addontools --with-mpfr=/opt/tc32/addontools]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.5.1.tc32-elf-1.5 (Telink TC32 version 2.0 build) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/cc1 -quiet -v -iprefix /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/ -D__USES_INITFINI__ -DCHIP_TYPE=CHIP_TYPE_8258 -DMCU_STARTUP_8258_RET_16K /home/ninh/.local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o -O2 -Wall -std=gnu99 -version -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -finline-small-functions -fshort-wchar -fms-extensions -o /tmp/ccyTAfX2.s]
+  ignore line: [GNU C (Telink TC32 version 2.0 build) version 4.5.1.tc32-elf-1.5 (tc32-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 5.1.2  MPFR version 3.1.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include"]
+  ignore line: [ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/../../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include]
+  ignore line: [ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/include-fixed]
+  ignore line: [ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (Telink TC32 version 2.0 build) version 4.5.1.tc32-elf-1.5 (tc32-elf)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 5.1.2  MPFR version 3.1.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 588dadc2e3ee96ee5eff501005748fd6]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/bin/as -v -o CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o /tmp/ccyTAfX2.s]
+  ignore line: [GNU assembler version 2.20 (tc32-elf) using BFD version (Telink TC32 version 2.01build) 2.20.tc32-elf-1.5]
+  ignore line: [COMPILER_PATH=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/:/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-Wall' '-O2' '-fpack-struct' '-fshort-enums' '-finline-small-functions' '-std=gnu99' '-fshort-wchar' '-fms-extensions' '-DCHIP_TYPE=CHIP_TYPE_8258' '-DMCU_STARTUP_8258_RET_16K' '-v' '-o' 'CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [Linking C static library libcmTC_22ca1.a]
+  ignore line: [/home/ninh/.local/lib/python3.7/site-packages/cmake/data/bin/cmake -P CMakeFiles/cmTC_22ca1.dir/cmake_clean_target.cmake]
+  ignore line: [/home/ninh/.local/lib/python3.7/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ca1.dir/link.txt --verbose=1]
+  ignore line: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-ar qc libcmTC_22ca1.a CMakeFiles/cmTC_22ca1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-ranlib libcmTC_22ca1.a]
+  ignore line: [make[1]: Leaving directory '/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+tc32-elf-gcc (Telink TC32 version 2.0 build) 4.5.1.tc32-elf-1.5
+Copyright (C) 2010 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

@@ -1,0 +1,11 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/tc32-elf-gcc 
+Build flags: -ffunction-sections;-fdata-sections;-Wall;-O2;-fpack-struct;-fshort-enums;-finline-small-functions;-std=gnu99;-fshort-wchar;-fms-extensions;-DCHIP_TYPE=CHIP_TYPE_8258;-DMCU_STARTUP_8258_RET_16K;
+Id flags:  
+
+The output was:
+1
+/mnt/d/Rogo/sdk/telink_dev/toolchains/tc32/bin/../lib/gcc/tc32-elf/4.5.1.tc32-elf-1.5/../../../../tc32-elf/bin/ld: crt0.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+
+

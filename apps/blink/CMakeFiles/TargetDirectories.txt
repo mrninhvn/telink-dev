@@ -1,0 +1,4 @@
+/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/rebuild_cache.dir
+/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/edit_cache.dir
+/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/elf.dir
+/mnt/d/Rogo/sdk/telink_dev/apps/blink/CMakeFiles/dummy.dir

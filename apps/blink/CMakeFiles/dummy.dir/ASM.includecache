@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Rogo/sdk/telink_dev/components/boot/8258/cstartup_8258.S
+
+/mnt/d/Rogo/sdk/telink_dev/components/boot/8258/cstartup_8258_RET_16K.S
+
+/mnt/d/Rogo/sdk/telink_dev/components/boot/div_mod.S
+
