@@ -10,15 +10,13 @@ export PATH := $(TOOLCHAIN_PATH):$(PATH)
 #########################################################################################
 
 ifndef APP
-$(error "Please add "APP=" variable. Eg: "make APP=blink")
+APP := null
 endif
 
+PROJECT_NAME := $(APP)
 PROJECT_PATH := ./$(APP)
-OUT_PATH :=$(PROJECT_PATH)/build
-
-ifeq ("$(wildcard $(PROJECT_PATH))", "")
-$(error "Invalid APP, please check if the "APP=" is correct!")
-endif
+BUILD_PATH := ./.build
+OUT_PATH :=$(BUILD_PATH)/$(PROJECT_PATH)
 
 #include the SDK makefile
 OBJ_SRCS := 
@@ -122,13 +120,16 @@ sizedummy: $(ELF_FILE)
 	@echo ' '
 
 # Other Targets
-clean:
+clean: | $(APP)
 	-$(RM) $(FLASH_IMAGE) $(ELFS) $(OBJS) $(LST) $(SIZEDUMMY) $(ELF_FILE) $(BIN_FILE) $(LST_FILE)
 	-@echo ' '
 
-pre-build:
+clear:
+	-rm -rf $(BUILD_PATH)/*
+	-@echo ' '
+
+pre-build: | $(APP)
 	mkdir -p $(foreach s,$(OUT_DIR),$(OUT_PATH)$(s))
-#-"D:\tel\ble_sdk_release/getver.sh"
 	-@echo ' '
 
 flash:
@@ -148,5 +149,5 @@ combine_fw:
 
 secondary-outputs: $(BIN_FILE) $(LST_FILE) $(SIZEDUMMY)
 
-.PHONY: all clean dependents flash erase_fw monitor combine_fw pre-build
+.PHONY: all clean clear dependents flash erase_fw monitor combine_fw pre-build
 .SECONDARY: main-build 
